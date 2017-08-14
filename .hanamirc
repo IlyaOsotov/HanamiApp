@@ -1,0 +1,4 @@
+project=test_app
+architecture=container
+test=minitest
+template=erb
