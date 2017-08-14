@@ -1,5 +1,4 @@
 <h2>All books</h2>
-
 <% if books.any? %>
     <div id="books">
       <% books.each do |book| %>
@@ -12,3 +11,4 @@
 <% else %>
     <p class="placeholder">There are no books yet.</p>
 <% end %>
+<%= link_to 'New book', routes.new_book_path, class: 'btn', title: 'New book' %>
